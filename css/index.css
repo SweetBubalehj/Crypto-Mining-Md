@@ -1,0 +1,316 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-position: top;
+    background-color: #54626F;
+}
+.header, .corp, .footer, .descriere {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    width: 820px;
+    min-height: 900px;
+    max-width: 2000px;
+}
+.header {
+    background-color: black;
+    box-shadow: -1px 0px 39px 9px #000000;
+    z-index: 1;
+}
+
+.footer {
+    width: 920px;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    filter: drop-shadow(2px 1px 3px #000);
+}
+    .footer p {
+        text-align: center;
+    }
+
+.rel {
+    position: relative;
+    display: grid;
+}
+
+.img1 {
+    margin-top: -170px;
+    margin-left: 700px;
+    z-index: 2;
+    display: flex;
+    filter: drop-shadow(3px 5px 10px #000);
+}
+
+.text {
+    font-size: 30px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+}
+
+.color {
+    height: 150px;
+    color: grey;
+}
+
+.meniu {
+    height: 75px;
+    margin: 150px auto;
+    background: black;
+    text-align: center;
+    box-shadow: -1px 0 20px 9px #000000;
+    border-radius: 5px;
+    width: 980px;
+}
+
+    .meniu ul li {
+        list-style: none;
+        display: inline-block;
+        font: bold 14px/30px Georgia, serif;
+    }
+    .meniu li a {
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        padding: 22px 50px;
+        color: grey;
+        vertical-align: middle;
+        font-size: 45px;
+    }
+        .meniu li a:hover {
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 45px;
+            color: silver;
+            filter: drop-shadow(1px 1px 15px silver);
+        }
+    .meniu li b {
+        text-decoration: none;
+        display: block;
+        padding: 22px 50px;
+        color: silver;
+        vertical-align: middle;
+        font-size: 45px;
+        filter: drop-shadow(1px 1px 15px silver);
+    }
+
+.linie {
+    display: inline-block;
+}
+
+.fundal1 {
+    max-width: 900px;
+    min-height: 900px;
+    background: url("../img/table1.png") no-repeat 0 0;
+    margin: 0 auto;
+    filter: drop-shadow(0px 1px 1px #000);
+}
+
+.fundal2 {
+    max-width: 300px;
+    min-height: 300px;
+    background: url("../img/table2.png") no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+    filter: drop-shadow(0px 1px 1px #000);
+}
+
+.fundal3 {
+    max-width: 300px;
+    min-height: 300px;
+    background: url("../img/table3.png") no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+    filter: drop-shadow(0px 1px 1px #000);
+}
+
+.fundal4 {
+    max-width: 300px;
+    min-height: 300px;
+    background: url("../img/table4.png") no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+    filter: drop-shadow(0px 1px 1px #000);
+}
+
+.table {
+    margin: 100px auto;
+    width: 1200px;
+    height: 900px;
+    border-radius: 10px;
+}
+.ttd {
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin: 0 0;
+    opacity: 0;
+}
+    .ttd:hover {
+        width: 304px;
+        margin-left: -2px;
+        height: 300px;
+        background-color: #000;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0.9;
+    }
+    .ttd .text {
+        margin: 5% 5% 5%;
+        padding-top: 20px;
+        color: grey;
+        font-family: Arial;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: left;
+        display: inline-block;
+    }
+.ttt {
+    text-align: left;
+    width: 900px;
+    height: 900px;
+    margin: 0 0;
+    opacity: 0;
+}
+
+    .ttt:hover {
+        width: 900px;
+        height: 905px;
+        background-color: #000;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0.9;
+    }
+
+    .ttt .text {
+        margin: 5% 5% 5%;
+        padding-top: 50px;
+        color: grey;
+        font-family: Arial;
+        font-size: 150px;
+        letter-spacing: 2px;
+        text-align: left;
+        display: inline-block;
+    }
+
+.table {
+    margin: 100px auto;
+    background-color: grey;
+    max-width: 700px;
+    border: solid 5px black;
+    filter: drop-shadow(2px 1px 3px #000);
+}
+    .table font {
+        font: bold 14px/20px Georgia, serif;
+        color: silver;
+        filter: drop-shadow(2px 1px 3px #000);
+    }
+        .table font b {
+            margin: 0 auto;
+            background-color: black;
+            padding: 15px 25px;
+            color: silver;
+            text-align: center;
+            font: bold 40px/20px Georgia, serif;
+            border-radius: 5px;
+            filter: drop-shadow(2px 1px 3px #000);
+        }
+.tbl {
+    margin: 0 auto;
+    background-color: #54626F;
+    filter: drop-shadow(2px 1px 3px #000);
+    height: 400px;
+    width: 440px;
+}
+
+.button {
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    color: silver;
+    filter: drop-shadow(2px 1px 3px #000);
+    border: 1px solid black;
+    border-radius: 3px;
+    font: bold 20px/10px Georgia, serif;
+}
+
+.nesolestag-enadenud {
+    padding: 5px 20px;
+    height: 950px;
+    width: 500px;
+    margin: 50px auto;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 10px;
+    filter: drop-shadow(2px 1px 3px #000);
+}
+
+.conts {
+    text-align: center;
+    filter: drop-shadow(1px 1px 1px #000);
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+.ico-wrap {
+    color: silver;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid silver;
+    float: left;
+    border-radius: 30px;
+}
+
+.ico-contact {
+    line-height: 1.9 !important;
+}
+
+.meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.aio-icon-title {
+    font-size: 16px;
+    color: silver;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.iframe {
+    margin: 10px auto;
+    width: 450px;
+    height: 450px;
+    margin-left: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 2px 2px #000);
+}
